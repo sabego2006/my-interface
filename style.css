@@ -1,0 +1,58 @@
+@import url("style.css");
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #808087;
+    color: #000000;
+    width: 100%;
+    height:auto;
+   font-size: medium;
+background-image: url("https://i.pinimg.com/originals/3d/fe/ba/3dfebaf06fe620590697acf279d51fc8.png");
+background-size: 20%;
+background-attachment: fixed;
+display: list-item;
+list-style:upper-alpha  ;
+white-space: pre;
+
+}
+header {
+    background-color: #abee00;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    padding: 1em 0;
+    border-style:dashed;
+    text-transform: uppercase;
+    text-indent: 0%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSWjnSd77lh-vRDBbCR0LfDCWgAaLHB-0kw&s");
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    border-style:solid;
+   
+}
+nav ul li {
+    margin: 1% 1em;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ee00b6;
+    font-weight: 100  ;
+    font-style: italic;
+    line-height: 0;
+    text-decoration:overline;
+    vertical-align:top;
+}
+main {
+    padding: 1em;
+}
+h2 {
+    color: #ee00b6;
+    
+}

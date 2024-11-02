@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipo de Interfaz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi aplicación</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio </a></li>
+            <li><a href="#contenido">Contenido </a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main id="contenido">
+        <section id="inicio">
+            <h2>Pantalla de Inicio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Nihil a reiciendis soluta eum eius, mollitia molestiae odit</p>  
+            <p>laborum natus illo libero. Corrupti quasi accusantium</p>
+            <p>aperiam necessitatibus repellat, eligendi voluptates debitis!</p>
+        </section>
+        <section id="contenido">
+            <h2>Pantalla de Contenido</h2>
+            <p>Descripción principal...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Nihil a reiciendis soluta <strong>eius, mollitiaJAJA</strong>  molestiae odit</p>  
+            <p>laborum natus illo libero. Corrupti quasi accusantium</p>
+            <p>aperiam necessitatibus repellat, eligendi voluptates debitis!</p>
+        </section>
+        <section id="contacto">
+            <h2>Pantalla de Contacto</h2>
+            <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+                <p>
+                    Nombre: <input type="text" name="name_control" autofocus required />
+                    <br/>
+                    Email: <input type="email" name="email_control" required />
+                    <br/>
+                    URL: <input type="url" name="url_control" placeholder="Escripe la URL de tu página web personal" />
+                    <br/>
+                    Fecha: <input type="date" name="date_control" />
+                    <br/>
+                    Tiempo: <input type="time" name="time_control" />
+                    <br/>
+                    Fecha y hora de nacimiento: <input type="datetime" name="datetime_control" />
+                    <br/>
+                    Mes: <input type="month" name="month_control" />
+                    <br/>
+                    Semana: <input type="week" name="week_control" />
+                    <br/>
+                    Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+                    <br/>
+                    Intervalo (min 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0" />
+                    <output for="range_control" name="range_control_value" >0</output>
+                    <br />
+                    Teléfono: <input type="tel" name="tel_control" />
+                    <br/>
+                    Término de búsqueda: <input type="search" name="search_control" />
+                    <br />
+                    Color Favorito: <input type="color" name="color_control" />
+                    <br/>
+                    <input type="submit" value="Submit!" />
+                </p>
+            </form> 
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
