@@ -9,12 +9,10 @@ body {
     width: 100%;
     height:auto;
    font-size: medium;
-background-color: #808087;
 background-size: 20%;
-background-attachment: fixed;
 display: list-item;
 list-style:upper-alpha  ;
-white-space: pre;
+
 
 }
 header {
